@@ -6,6 +6,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
   } ${white ? "text-n-8" : "text-n-1"} ${className || ""}`;
   const spanClasses = "relative z-10";
 
+  //Render button
   const renderButton = () => (
     <button className={classes} onClick={onClick}>
       <span className={spanClasses}>{children}</span>

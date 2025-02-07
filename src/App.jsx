@@ -1,15 +1,20 @@
 import Header from "./components/Header"
+import Hero from "./components/Hero"
+import ButtonGradient from "./assets/svg/ButtonGradient";
+
 
 function App() {
 
 
   return (
     <>
-       <div className="text-3xl font-bold underline">
+       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
     <Header />
+    <Hero />
     </div>
+    <ButtonGradient />
     </>
   )
 }
 
-export default App
+export default App  

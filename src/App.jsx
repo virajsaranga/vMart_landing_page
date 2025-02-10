@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Benifits from "./components/Benifits";
 import Collaboration from "./components/Collaboration";
+import Services from "./components/Services";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Hero />
     <Benifits />
     <Collaboration/>
+    <Services />
     </div>
     <ButtonGradient />
     </>
